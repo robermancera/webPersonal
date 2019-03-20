@@ -16,6 +16,15 @@ header{
     font-weight: bold;
 }
 
+#textoBiografia{
+  font-style: oblique;
+  font-size: 19px
+}
+
+.white{
+  color: white;
+}
+
 .tituloArticle{
     color: white;
     margin: 0;
@@ -23,8 +32,9 @@ header{
 }
 
 article{
-    border: 3px solid black;
+    border: 3px solid black; 
     margin: 5px 40px;
+    padding: 0;
     display: flex;
     flex-flow: column;
 }
@@ -59,4 +69,9 @@ nav {
   }
   .active {
     background-color: #4CAF50;
+  }
+
+  #chargers{
+    width: 100px;
+    height: 100px;
   }
